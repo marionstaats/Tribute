@@ -1,66 +1,94 @@
 /*designing the body*/
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+
 /*designing navigation bar*/
-.navbar{
+
+.navbar {
     background-color: #cccccc;
     list-style-type: none;
     margin: 0px;
     padding: 35px;
 }
+
 .navbar li {
     display: inline;
     float: left;
     text-align: center;
     font-weight: bold;
     font-size: medium;
-  }
+}
+
 a {
     text-decoration: none;
 }
+
 li a {
     display: block;
     color: black;
     text-align: center;
     padding: 5px;
     text-decoration: none;
-  }
-  
-  li a:hover {
+}
+
+li a:hover {
     background-color: #b8b8b8;
     text-decoration: none;
-    color:black;
-  }
-  
+    color: black;
+}
+
 
 /*mainblock design*/
-.mainblock{
-    background-image: url("images\marcelogarciabackground.jpg");
+
+.mainblock {
+    background-image: url("images/bg.jpeg");
     background-size: cover;
 }
 
+
 /*shortbioblock design*/
-.shortbioblock{
-    background-color: #e5e4e2;
-    display:block;
-    padding:10px;
-    margin:20px;
+
+.shortbioblock {
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
+    display: block;
 }
-h1{
-    padding:10px;
+
+.shortbioblock h1 {
+    text-shadow: 2px 2px 5px whitesmoke;
 }
-.imagebio{
-    width:500px;
-    padding:10px;
-    float:left;
+
+h1 {
+    padding: 10px;
 }
-.shortbioblock li{
+
+.imagebio {
+    width: 500px;
+    padding: 10px;
+    float: left;
+}
+
+.shortbioblock li {
     font-weight: bold;
     font-size: medium;
     text-align: center;
     list-style-type: none;
+}
 
+
+/*Achievementsblock design*/
+
+.achievementlinks {
+    text-align: center;
 }
