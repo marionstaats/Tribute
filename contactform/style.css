@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    line-height: 2em;
+    background-image: url(backgroundJuliette.png);
+}
+
+
+.contactForm{
+    border:1px solid black;
+    border-radius: 8px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:200px;
+    text-align:center;
+    width:900px;
+    height: 400px;
+    background-color:white;
+}
+
+form{
+    margin-top:-10px;
+}
+
+input{
+    padding: 10px;
+    text-align: left;
+}
+
+button{
+    margin-top:10px;
+    width: 100px;
+    height: 50px;
+}
