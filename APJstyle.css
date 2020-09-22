@@ -1,6 +1,8 @@
 /*designing the body*/
-body {
-
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 /*designing navigation bar*/
 .navbar{
