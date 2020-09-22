@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*header*/
+.header {
+    background-color: #bdb76b;
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+}
+.header h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    align-self: center;
+
+}
+.header li{
+    list-style-type: none;
+}
+a:link, :visited, :hover {
+    text-decoration: none;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    align-self: center;
+}
+.menu li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  /* Change the link color on hover */
+.menu li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+/*socialmedia button*/
+ .socialmedia {
+    margin: 0;
+    padding-right: 40px;
+    align-self: center;
+}
+.socialmedia li a {
+    display: block;
+    color: #000;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+.socialmedia li a:hover {
+    background-color: #555;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  /*contentblock*/
+.content{
+    background-image: url("images\marcelogarciabackground.jpg");
+    background-size: cover;
+}
+
+  /*bioblock*/
+.bioblock{
+    background-color: #e5e4e2;
+    padding:10px;
+}
+.imagebio{
+    height:300px;
+    float: left;
+}
+.biolist li{
+    text-decoration: none;
+}
