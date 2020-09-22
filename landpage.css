@@ -6,9 +6,66 @@
 
 body{
     background-color: #f5f6fa;
+    margin:50px;
 }
 
-img{
-    border: 1px solid#2c8396;
+h1{
+    color: #818181;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
 
+h3{
+    color:#2c8396;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    margin: 13px 0;
+}
+
+.main-div{
+    display: block;
+    margin: 100px auto;
+    padding:50px;
+}
+
+.marcelo{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 100px;
+    float: right;
+
+}
+
+.elon{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.abdul{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    float: right;
+    
+}
+
+.christo{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.main-div img{
+    border: 10px solid#2c8396;
+    height:300px;
+    width: 300px;
 }
