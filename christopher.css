@@ -8,45 +8,138 @@ body {
     background-image: url(backgroundJuliette.png);
     line-height: 2em;
     
+    
 }
 
-header {
-    background-color: white;
-}
-
-li{
-    display: inline;
-}
-
-p{
-    text-indent: 30px;
-}
 .entirepage {
     margin:auto;
     background-color: white;
     width: 1500px;
 }
 
-.maincontent{
-    margin: 10px;
+header {
+    background-color:#dfe6e9;
+    height: 200px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: large;
+}
+nav {
+    background-color:#b2bec3;
+    height: 50px;
+}
+
+nav ul {
+    text-decoration: none;
+   
+}
+
+nav li {
+    display: inline-block;
+    color: white;
+    text-align:center;
+    padding: 10px 30px;
+    text-decoration: none;
+    
+}
+
+nav li a { 
+    text-decoration: none;
+    color: white;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+nav li:hover {
+    background-color:#636e72;
+    padding-bottom: 8px;
+
+}
+.maincontent {
     text-align: justify;
-    margin:20px;
+    margin:30px;
+}
+
+p {
+    text-indent: 30px;
 }
 
 
-img.portrait{
+
+h1 {
+    margin:30px;
+
+}
+
+h3 {
+    margin: 30px;
+}
+
+.quotes{
+    display: inline-block;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 20px;
+    padding-left:80px;
+    padding-right: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+img.portrait {
     float:left;
     width:500px;
-    margin: 10px;
+    margin-top: 40px;
+    margin-right:10px;
 }
 
 img.bus{
     float:right;
     width:300px;
     margin-left:10px;
-    margin-top:35px;
+    margin-top:70px;
     padding:10px;
 }
 
 
+#map{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
 
+
+#histrip{
+    
+    margin-left:-500px;
+}
+
+#histrip{
+    padding-left: 30px;
+    text-align: justify;
+}
+
+#histrip ul{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#video{
+    margin-left:30px;
+    margin-top: 30px;
+}
+
+#book{
+    display: flex;
+    flex-direction: row;
+}
+#book p{
+    margin-top: 30px;
+}
+
+#bookcover{
+    margin-left: 100px;
+    width: 200px;
+    margin-top: 30px;
+}
