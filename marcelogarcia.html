@@ -3,6 +3,11 @@
 <head>
     <link rel="stylesheet" href="marcelostyle.css">
     <script src='https://kit.fontawesome.com/4a2eeb9094.js' crossorigin="anonymous"></script>
+    <script>
+        function focusInput() { 
+                  document.getElementById("input").focus(); 
+              } 
+      </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Marcelo Garcia</title>
@@ -10,7 +15,7 @@
 <body>
     <div class="header">
         <ul class="menu">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#">Bio</a></li>
             <li><a href="#">Achievements</a></li>
             <li><a href="#">Contact</a></li>
@@ -25,11 +30,49 @@
     <div class="content">
         <div class="bioblock">
             <img class=imagebio src="images\marcelogarciafull.jpg" alt="Marcelo">
-            <h2>In short</h2>
             <ul class="biolist">
-            <li>Born 17 January 1987</li>
-            <li>Grappler</li>
-            <li>Brazilian</li>
-        </ul>
+                <li>17 January 1987</li>
+                <li>Grappler</li>
+                <li>Brazilian</li>
+                <li>Hometown<br><i class="fas fa-arrow-right"></i></li>
+            </ul>
+            <div style="width: 100%"><iframe width="462px" height="260px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=250%20W.%2026th%20St.%20-%203rd%20Floor%20New%20York,%20NY%2010001+(Marcelo%20Garcia%20BJJ)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+        </div>
+        <div class="longbioblock">
+            <h2>Bio</h2>
+            <p>Marcelo Garcia is a grappler and jiu-jitsu competitor who was widely considered to be one of the best grapplers and arguably the best pound for pound submission grappler in the world. Garcia is a black belt in Brazilian jiu-jitsu under Fabio Gurgel of Team Alliance.<br><br> In September 2008, Marcelo opened up a Brazilian Jiu-Jitsu school in Pembroke Pines, a city in South Florida located between Miami and Fort Lauderdale. In September 2009, Marcelo opened an academy in Manhattan, New York City, which has become one of the most well-known BJJ schools in the world. Videos of Marcelo rolling with visiting famous grapplers from around the world are periodically released.</p>
+        </div>
+        <div class="video">
+            <div class="video-responsive">
+                <iframe width="426px" height="320px" src="https://www.youtube.com/embed/PkgR767YgFk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="achievinflublock">
+            <div class="achievements">
+                <h2>Achievements</h2>
+                <ul class="achievlist">
+                    <li><a href="https://www.bjjheroes.com/bjj-fighters/marcelo-garcia-fighter-profile">Profile on BJJHEROES</a></li>
+                    <li><a href="https://marcelogarciajj.com/mgjj/">His club in New York</a></li>
+                    <li><a href="https://marcelogarciastore.com/">Marcelo Garcia Store</a></li>
+                </ul>
+            </div>
+            <div class="influence">
+                <h2>His influence on me</h2>
+                <ul class="influencelist">
+                    <li>Many, many techniques</li>
+                    <li>Month training in 4 weeks</li>
+                    <li>Unlimited youtube videos</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="emailbox">
+                <h2>Sign up for the newsletter!</h2>
+            <form class="box" action="https://tenor.com/view/unsubscribe-unsubscribed-subscribed-subscribe-sub-gif-18337608">
+                <input type="email" id="input" onclick="focusInput()" class="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                <input type="submit" class="btn fa-input" value="&#xf061;">
+              </form> 
+            </div>
         </div>
     </div>
+    
