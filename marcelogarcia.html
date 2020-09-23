@@ -7,15 +7,32 @@
         function focusInput() { 
                   document.getElementById("input").focus(); 
               } 
+
+    submit111 = document.getElementById("submit111");
+
+    var myScrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 400) {
+            submit111.className = "bottomMenu show"
+        } else {
+            submit111.className = "bottomMenu hide"
+        }
+    };
+    
+    window.addEventListener("scroll", myScrollFunc);
+
       </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Marcelo Garcia</title>
 </head>
 <body>
+
+    <button type="button" id=submit111 onclick="alert('Thank you!!!')">Sponsor us with €100</button>
+
     <div class="header">
         <ul class="menu">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="https://marionstaats.github.io/Tribute/">Home</a></li>
             <li><a href="#">Bio</a></li>
             <li><a href="#">Achievements</a></li>
             <li><a href="#">Contact</a></li>
