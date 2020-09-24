@@ -24,37 +24,39 @@ header {
     padding-top: 15px;
     font-size: large;
 }
+
 nav {
     background-color:#b2bec3;
     height: 50px;
-}
-
-nav ul {
+    }
+    
+    nav ul {
     text-decoration: none;
-   
-}
-
-nav li {
+    }
+    
+    nav li {
     display: inline-block;
     color: white;
     text-align:center;
     padding: 10px 30px;
     text-decoration: none;
+    }
     
-}
-
-nav li a { 
+    nav li a { 
     text-decoration: none;
     color: white;
     padding-top: 30px;
     font-weight: bold;
-}
-
-nav li:hover {
+    }
+    
+    nav li:hover {
     background-color:#636e72;
     padding-bottom: 8px;
+    
+    }
+    
 
-}
+
 .maincontent {
     text-align: justify;
     margin:30px;
@@ -125,6 +127,10 @@ img.bus{
     padding-top: 30px;
 }
 
+#histrip li{
+    padding: 15px;
+}
+
 #video{
     margin-left:30px;
     margin-top: 30px;
@@ -145,25 +151,25 @@ img.bus{
 }
 
 .formcontainer{
-    background-color:#dfe6e9;
+    background-color:#b2bec3;
     padding: 30px;
     display:flex;
     flex-direction: row;
-    width:1500px;
-    margin-left:-30px;
-    
+    width:900px;
+    margin:auto;
+    margin-top: -20px;
+    border-radius:8px;
     
 }
 
 form{
-    
     display: flex;
     flex-direction: row;
     text-align: center;
 }
 
 
-}
+
 
 #input1{
     margin-right: 50px;
@@ -172,5 +178,25 @@ form{
 #input2{
     margin-left: 50px;
 }
+
+button{
+    background-image: url(https://www.svgrepo.com/show/55298/right-arrow-in-circular-button-outline.svg);
+    
+}
+
+footer{
+    background-color: #dfe6e9;
+    width: 1500px;
+    margin: auto;
+    margin-top: -30px;
+   
+   
+}
+
+#footercontent{
+    display: flex;
+    flex-direction: row;
+}
+
 
 
