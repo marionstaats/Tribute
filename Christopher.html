@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf_8">
+        <meta charset="utf-8">
         <link rel="stylesheet" href="christopher.css">
         <title>Christopher McCandless</title>
         <script src="https://kit.fontawesome.com/9e4490df3b.js" crossorigin="anonymous"></script>
@@ -13,24 +13,61 @@
 
     <!--My Header-->        
         <header>
+       
+            <i class="fas fa-hiking"></i>
+            <i class="fas fa-mountain"></i>
+            <i class="fas fa-tree"></i>
+            <i class="fas fa-leaf"></i>
+            <i class="fas fa-paw"></i>
+
             <h1> Christopher McCandless</h1>
             <h2>a.k.a "Alexander Supertramp"</h2>
+
         </header>
         
 
     <!--Navigation bar-->
 
     <nav>
-        <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#bio">Biography</a></li>
-        <li><a href="#achievements"">Achievements</a></li>
-        <li><a href="#Inspirations">Inspirations</a></li>
-        <li><a href="#moreinfos">More info</a></li>
-        </ul>
-        </nav>
-        
-
+        <a href="index.html">Home</a>
+    
+        <div class="dropdown">
+            <button class="btn">Biography</button>
+            <div class="dropdown-content">
+                <a href="#alaska">Trip to Alaska</a>
+                <a href="#noreturn">No return</a>
+            </div>
+        </div>
+    
+           <div class="dropdown">
+            <button class="btn">Achievements</button>
+            <div class="dropdown-content">
+                <a href="#freedom">Ultimate freedom</a>
+                <a href="#restart">Start from scrath</a>
+            </div>
+        </div>
+    
+        <div class="dropdown">
+            <button class="btn">Inspiration</button>
+            <div class="dropdown-content">
+                <a href="#travel">Travel</a>
+                <a href="#independance">Independance</a>
+                <a href="#livingwithfew">Living with few</a>
+            </div>
+        </div>
+    
+        <div class="dropdown">
+            <button class="btn">More Info</button>
+            <div class="dropdown-content">
+                <a href="#googlemap">Map</a>
+                <a href="#webpage">Fan page</a>
+                <a href="#trailer">Movie trailer</a>
+                <a href="#bookpage">Book</a>
+                <a href="#newsletter">Newsletter</a>
+                
+            </div>
+        </div>
+    </nav>
 
 
     <!--First content :the bio-->
@@ -58,7 +95,7 @@
         </p>
         
 
-        <h3>His trip to Alaska</h3>
+        <h3 id="alaska">His trip to Alaska</h3>
 
         <p> By the end of summer in 1990, McCandless had driven his Datsun through California, Arizona, and South Dakota, where he worked at a grain elevator in Carthage. A flash flood disabled his car, at which point he removed its license plates,
          took what he could carry, and kept moving on foot.
@@ -70,11 +107,11 @@
         McCandless, according to <i>Into the Wild</i>, attempted to continue "heading west until I hit the Bering Sea." However, he was deterred by the thick Alaskan bush and returned to the
         bus, where he set up camp and lived off the land. He had 4.5 kilograms (9.9 lb) of rice, a Remington semi-automatic rifle with 400 rounds of .22LR hollowpoint ammunition, a number of books, including one 
         on local plant life, some personal effects, and a few items of camping equipment. Self-portrait photographs and journal entries indicate he foraged for edible plants and poached game. McCandless poached porcupines,
-        squirrels, and birds, such as ptarmigans and Canada geese.</br>
-        <img class="bus"src="images/bus.jpg" alt="the bus">
+        squirrels, and birds, such as ptarmigans and Canada geese.<br>
+        <img class="bus" src="images/bus.jpg" alt="the bus">
         </p>
 
-        <h3>An impossible return</h3>
+        <h3 id="noreturn">An impossible return</h3>
 
         <p>McCandless' journal documents 113 days in the area. In July, after living in the bus for a little over two months, he decided to head back to civilization—but the trail was <b>blocked</b> by an impassable Teklanika River swollen
         with late-summer runoff from the Cantwell Glacier: The watercourse by that stage was considerably higher and swifter than when he had crossed in April. McCandless did not have a detailed topographical map of the region and
@@ -101,16 +138,16 @@
         
         <hr>
 
-        <h3>A quest for "ultimate freedom"</h3>
+        <h3 id="freedom">A quest for "ultimate freedom"</h3>
         
         <p> After reading countless books of <i>Jack London, Henry David Thoreau,</i> and being trapped in the modern world of emphasis on “things” and money, Christopher McCandless ventured off to find what <b>freedom </b>is.
-            <i></i>Into the Wild </i> tells his story.
+            <i>Into the Wild </i> tells his story.
         </p>
         
         <p>It was after graduating from Emory College that McCandless decided that he no longer wanted to live in the society he has come to known. He didn’t want a fancy job or a nice car. McCandless wanted what every one of us have wanted at least once in our life : to <b>escape</b>. He wanted to find and be himself, unaffected by any unnatural factors of the modern world.
         </p>
 
-        <h3> Starting all over again </h3>
+        <h3 id="restart"> Starting all over again </h3>
 
         <p>The first thing McCandless did was decide to donate his life savings–$24,000–to charity. He then drove his car to the side of the road, and burned the remaining money he had along with his social security card, then proceed to cut up his ID and credit cards. McCandless doesn’t tell a single person where he is going, and starts his odyssey to Alaska to explore the American wilderness. To start his new life he decides to go by a new name, <b>Alexander Supertramp</b>, a sort of re-birth into this new life he was to lead.
         </p>
@@ -131,7 +168,7 @@
 
         <hr>
 
-        <h3>Travel </h3>
+        <h3 id="travel">Travel</h3>
 
         <p>I always wanted to travel and I found the idea of crossing countries with no specific goals and limit of time really tempting.
          I traveled myself alone through New-Zealand and understood the strength and tranquility Christopher McCandless found in nature. The idea of not knowing what tomorrow will be
@@ -147,9 +184,9 @@
             <span class="quotes">"Happiness is only real when shared"</span>
         </p>
 
-        <h3>Living with the bare minimum</h3>
+        <h3 id="livingwithfew">Living with the bare minimum</h3>
 
-        <p></p> Of course, I could never live with just a backpack and no money, completely cut off the world. But I try in my everyday life to limit
+        <p>Of course, I could never live with just a backpack and no money, completely cut off the world. But I try in my everyday life to limit
     the goods that I don't need, mainly for ecological reasons.</p>
         <!--Complementary info-->
 
@@ -158,14 +195,14 @@
 
         <hr>
 
-        <h3>Checkout where he started his trip:</h3>
+        <h3 id="googlemap">Checkout where he started his trip:</h3>
 
         <div id="map">
         <div style="width: 100%"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=600&amp;hl=en&amp;q=Segundo,%20California+(Christopher%20McCandless)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="600" height="600" frameborder="0"></iframe><a href="https://www.maps.ie/route-planner.htm"></a>
         </div>
         <div id="histrip">
             <p>It's from here, Segundo, California that he started his trip all the way up to Alaska, till the Stampede trail in the Denali National park.
-            <br>His differents stops:
+            <br>His differents stops:</p>
             <ul>
                 <li>Arizona</li>
                 <li>Colorado</li>
@@ -174,15 +211,14 @@
                 <li>Finally Fairbanks, Alaska</li>
                 
             </ul>
-            </p>
-        </div>
+            </div>
         </div>   
         
-        <h3>Web Page</h3>
+        <h3 id="webpage">Web Page</h3>
 
         <p>
-          Have a look at this <a href="http://www.christophermccandless.info/" target="_blank"> < < Web-Page > ></a>
-        Written by fans, you can even ask questions about him on a forum.</p>
+          Have a look at this <a href="http://www.christophermccandless.info/" target="_blank"> &lt; &lt; Web-Page &gt; &gt; </a>
+         Written by fans, you can even ask questions about him on a forum.</p>
 
         <p>Follow social media accounts created by fans:
             <a href="https://fr-fr.facebook.com/chrismccandlessofficial/" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -190,14 +226,14 @@
         </p>
 
         
-        <h3 >Movie</h3>
+        <h3 id="trailer">Movie</h3>
 
         <p>Here's the trailer from <i>Into the wild</i>, directed by Sean Penn.</p>
 
         <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/g7ArZ7VD-QQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
-        <h3>Book</h3>
+        <h3 id="bookpage">Book</h3>
 
         <div id="book">
 
@@ -207,18 +243,18 @@
         </div>
 
               
-        <h3>Newsletter</h3>
+        <h3 id="newsletter">Newsletter</h3>
         <div class="formcontainer">
         <p>Register here:    </p>
 
         <form>
             
-            <input id="input1" type="text" name="yourname" id="yourname" placeholder="Your name" required><br/><br/>
+            <input id="input1" type="text" name="yourname"  placeholder="Your name" required><br/><br/>
 
             
-            <input id="input2" type="text" name="youremail" id="youremail" placeholder="example@gmail.com" required><br/>
+            <input id="input2" type="text" name="youremail"  placeholder="example@gmail.com" required><br/>
 
-            <input type="image" id="image alt="register" src="https://www.iconfinder.com/data/icons/media-and-navigation-buttons-round/512/Button_1-512.png" style="width: 30px">
+            <input type="image" id="image" alt="register" src="https://www.iconfinder.com/data/icons/media-and-navigation-buttons-round/512/Button_1-512.png" style="width: 30px">
         </form>
 
         </div><br>
@@ -227,16 +263,16 @@
             </div>
 
 
-        </div>
+       
 <footer>
     
 
     
-    &copy, Copyright 2020
+    &copy Copyright 2020
 
 
 </footer>
 
-</div>
+
     </body>
 </html>
