@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/backgroundJuliette.png);
+    line-height: 2em;
+    
+    
+}
+
+.entirepage {
+    margin:auto;
+    background-color: white;
+    width: 1500px;
+}
+
+header {
+    background-color:#dfe6e9;
+    height: 200px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: large;
+}
+
+nav {
+    background-color:#b2bec3;
+    height: 50px;
+    }
+    
+    nav ul {
+    text-decoration: none;
+    }
+    
+    nav li {
+    display: inline-block;
+    color: white;
+    text-align:center;
+    padding: 10px 30px;
+    text-decoration: none;
+    }
+    
+    nav li a { 
+    text-decoration: none;
+    color: white;
+    padding-top: 30px;
+    font-weight: bold;
+    }
+    
+    nav li:hover {
+    background-color:#636e72;
+    padding-bottom: 8px;
+    
+    }
+    
+
+
+.maincontent {
+    text-align: justify;
+    margin:30px;
+}
+
+p {
+    text-indent: 30px;
+}
+
+
+
+h1 {
+    margin:30px;
+
+}
+
+h3 {
+    margin: 30px;
+}
+
+.quotes{
+    display: inline-block;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 20px;
+    padding-left:80px;
+    padding-right: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+img.portrait {
+    float:left;
+    width:500px;
+    margin-top: 40px;
+    margin-right:10px;
+}
+
+img.bus{
+    float:right;
+    width:300px;
+    margin-left:10px;
+    margin-top:70px;
+    padding:10px;
+}
+
+
+#map{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+
+#histrip{
+    
+    margin-left:-500px;
+}
+
+#histrip{
+    padding-left: 30px;
+    text-align: justify;
+}
+
+#histrip ul{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#histrip li{
+    padding: 15px;
+}
+
+#video{
+    margin-left:30px;
+    margin-top: 30px;
+}
+
+#book{
+    display: flex;
+    flex-direction: row;
+}
+#book p{
+    margin-top: 30px;
+}
+
+#bookcover{
+    margin-left: 100px;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.formcontainer{
+    background-color:#b2bec3;
+    padding: 30px;
+    display:flex;
+    flex-direction: row;
+    width:900px;
+    margin:auto;
+    margin-top: -20px;
+    border-radius:8px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+
+
+#input1{
+    margin-right: 50px;
+}
+
+#input2{
+    margin-left: 50px;
+}
+
+button{
+    background-image: url(https://www.svgrepo.com/show/55298/right-arrow-in-circular-button-outline.svg);
+    
+}
+
+footer{
+    background-color: #dfe6e9;
+    width: 1500px;
+    margin: auto;
+    margin-top: -30px;
+   
+   
+}
+
+#footercontent{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
