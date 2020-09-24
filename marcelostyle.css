@@ -90,7 +90,6 @@ a:link, :visited, :hover {
 .imagebio{
     float: left;
     width: 40%;
-    height: auto;
 }
 .biolist{
     width: 500px;
@@ -120,6 +119,14 @@ h2{
     width: 40%;
     float: left;
 }
+
+/*stack when small*/
+@media screen and (max-width:800px) {
+  .imagebio, .biolist, .maps {
+      width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
 
 /*longbioblock*/
 .longbioblock{
