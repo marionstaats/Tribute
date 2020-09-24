@@ -18,7 +18,6 @@
 }
 
 .navbar li {
-    display: inline;
     float: left;
     text-align: center;
     font-weight: bold;
