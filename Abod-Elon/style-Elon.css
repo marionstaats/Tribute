@@ -1,0 +1,109 @@
+body{
+    background-color: #6e6d6d;
+    margin:0px;
+    position: relative;
+  min-height: 100vh;
+}
+/* The nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+/* the image with the bio description */
+.bio{
+    background-color: #333;
+    margin-top: 7%;
+    display:flex;
+    justify-content:space-around;
+    flex-direction:row;
+    text-align: center;
+}
+
+.map{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.elonpic{
+    border: solid 1px #EEE9E9;
+    border-radius: 1%;
+    width: 300px;
+    height: 300px;
+}
+
+p{
+    margin-left: 50px;
+    line-height: 2.5;
+    font-size: 26px;
+    color:darkkhaki;
+    text-shadow: 3px 3px 5px black;
+}
+
+
+.projects {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 7%;
+  margin-bottom: 7%;
+  }
+  
+  .project {
+    background-color: #333;
+    display:block;
+    width:50%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+      
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:50px;
+    background-color:#333;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 40px;
+    padding: 5px;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.companies a:hover,
+a:active,a:link,
+a:visited{
+    display: inline-block;
+    color:#e07b0f;
+    text-decoration: none;
+    font-size: 26px;
+    
+}
+
