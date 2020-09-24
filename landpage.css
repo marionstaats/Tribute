@@ -131,8 +131,10 @@ p{
 .contact{
     text-align:right;
     padding-right: 40px;
+    
 }
 
-a {
-    color: white;
+.lcontact {
+    text-decoration: none;
 }
+
