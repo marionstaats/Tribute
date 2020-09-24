@@ -19,14 +19,14 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color:#e07b0f;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #221;
   }
 
 /* the image with the bio description */
@@ -37,6 +37,15 @@ ul {
     justify-content:space-around;
     flex-direction:row;
     text-align: center;
+}
+
+.bio:hover{
+  background-color: #221;
+  margin-top: 7%;
+  display:flex;
+  justify-content:space-around;
+  flex-direction:row;
+  text-align: center;
 }
 
 .map{
@@ -51,9 +60,25 @@ ul {
     height: 300px;
 }
 
+.pbio{
+  margin-left: 0 auto;
+  line-height: 2.5;
+  font-size: 26px;
+  color:darkkhaki;
+  text-shadow: 3px 3px 5px black;
+  max-width: 800px;
+  position: relative;
+}
+
+span{
+  color:whitesmoke;
+  font-size: 28px;
+}
+
+
 p{
     margin-left: 50px;
-    line-height: 2.5;
+    line-height: 1.8;
     font-size: 26px;
     color:darkkhaki;
     text-shadow: 3px 3px 5px black;
@@ -76,6 +101,11 @@ p{
     font-size: 30px;
   }
 
+  .project:hover {
+    background-color: #221;
+  transform: scale(1.2);
+  transition: transform  1s;
+  }
       
 .footer{
     position: relative;
@@ -97,13 +127,26 @@ p{
     height: 40px !important;
 }
 
-.companies a:hover,
-a:active,a:link,
-a:visited{
+.companies{
+  text-decoration: none;
+  color:#e07b0f;
+}
+
+a.companies:hover,
+a.companies:active{
     display: inline-block;
     color:#e07b0f;
+    background-color: rgb(83, 64, 25);
     text-decoration: none;
     font-size: 26px;
     
 }
 
+/* a.companies:link,
+a.companies:visited{
+    display: inline-block;
+    color:#e07b0f;
+    text-decoration: none;
+    font-size: 26px;
+    
+} */ 
